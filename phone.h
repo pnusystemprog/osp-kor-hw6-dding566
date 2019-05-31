@@ -1,13 +1,11 @@
-// array of sturcure
-
 # define MAX 50
 
 struct Contact
 {
-    char Name[10];
-    char PhoneNumber[13];
+    char name[10];
+    char number[13];
 };
 
-struct Contact PhoneBook[MAX];
+struct Contact Phonebook[MAX];
 
-int size;  // store the actual numbers of PhoneBook
+int size;
